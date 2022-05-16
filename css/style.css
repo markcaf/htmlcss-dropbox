@@ -8,3 +8,47 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Creazione header fisso*/
+header{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content a {
+    text-decoration: none;
+    font-size: 14px;
+    color: inherit;
+}
+
+.header-content li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 15px;
+    color: #212121;
+}
+
+.logo{
+    width: 80%;
+    position: relative;
+    left: 15px;
+    top: 3px;
+}
+
+.button{
+    padding: 5px 15px;
+    color: white;
+    background-color: #0061ff;
+}
+
+.header-dx li:last-child{
+    color: white;
+}
+/* Fine header */
+
