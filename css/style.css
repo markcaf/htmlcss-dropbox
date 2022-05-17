@@ -116,7 +116,7 @@ h1{
 }
 
 #plans-section{
-    height: 75vh;
+    height: auto;
     padding-top: 140px;
 }
 
@@ -224,6 +224,37 @@ hr{
 .team-card .col-sx .price{
     margin-bottom: 40px;
 }
+
+.partner-img{
+    width: 100%;
+}
+
+#partner-section{
+    margin: 100px 0 100px;
+    font-size: 13px;
+}
+
+#partner-section .col-sx{
+    flex-basis: 65%;
+}
+
+#partner-section .col-dx{
+    flex-basis: 35%;
+    position: relative;
+    top: 38px;
+}
+
+#partner-section .col-dx p{
+    margin: 20px 0 30px;
+}
+
+.trova-partner{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+
 
 
 
