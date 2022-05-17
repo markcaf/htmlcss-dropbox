@@ -153,13 +153,15 @@ h2{
     justify-content: space-around;
     align-items: stretch;
     gap: 30px;
-    margin-top: 40px;
-    padding-bottom: 40px;
+    /* margin-top: 40px; */
+    /* padding-bottom: 40px; */
 }
 
 .cards{
     font-size: 12px;
     border: #d3d3d6 solid 1px;
+    margin-top: 30px;
+    width: 100%;
 }
 
 .type-plan{
@@ -209,6 +211,20 @@ hr{
 .highlights{
     margin-bottom: 20px;
 }
+
+.team-card{
+    padding: 20px;
+}
+
+.team-card .col-dx{
+    width: 33%;
+    text-align: center;
+}
+
+.team-card .col-sx .price{
+    margin-bottom: 40px;
+}
+
 
 
 
