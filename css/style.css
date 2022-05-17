@@ -13,6 +13,7 @@ header{
     width: 100%;
     background-color: white;
     position: fixed;
+    z-index: 10;
 }
 
 .header-content{
@@ -54,14 +55,14 @@ header{
 /* Fine header */
 
 .container-jumbo{
-    width: 60%;
+    max-width: 900px;
     margin: 0 auto;
     position: relative;
     top: 84px;
 }
 
 .container-content{
-    width: 50%;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -112,4 +113,36 @@ h1{
     font-size: 35px;
     position: relative;
     top: 16px;
+}
+
+#plans-section{
+    height: 75vh;
+    padding-top: 140px;
+}
+
+h2{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.radio{
+    padding: 7px;
+    border: #d3d3d6 solid 1px;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    top: 2px;
+}
+
+.monthly,.annually{
+    display: inline-block;
+}
+
+.monthly{
+    margin-right: 30px;
+}
+
+.monthly .on {
+    border: #0061ff solid 5px;
+    padding: 3.5px;
 }
