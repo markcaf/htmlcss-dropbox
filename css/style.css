@@ -62,7 +62,7 @@ header{
 }
 
 .container-content{
-    max-width: 700px;
+    max-width: 750px;
     margin: 0 auto;
 }
 
@@ -136,6 +136,7 @@ h2{
 
 .monthly,.annually{
     display: inline-block;
+    font-size: 12px;
 }
 
 .monthly{
@@ -146,3 +147,44 @@ h2{
     border: #0061ff solid 5px;
     padding: 3.5px;
 }
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.cards{
+    font-size: 12px;
+    border: #d3d3d6 solid 1px;
+}
+
+.type-plan{
+    text-align: center;
+    padding: 10px;
+    border-bottom: #d3d3d6 solid 1px;
+    width: 100%;
+}
+
+.cards .content-cards{
+    padding: 20px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.price{
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.payment{
+    margin-bottom: 40px;
+    color: #818282;
+}
+
+
+
