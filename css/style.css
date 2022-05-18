@@ -411,9 +411,13 @@ hr{
     list-style: none;
 }
 
-#faq .container-content .accordion .fa-angle-down{
+#faq .container-content .accordion .fa-angle-down, .fa-angle-up{
     position: relative;
     left: 25%;
+}
+
+#faq .container-content .accordion .fa-angle-up{
+    display: none;
 }
 
 #faq .container-content ul li{
@@ -438,6 +442,14 @@ hr{
 
 #faq .container-content ul li:hover .answer{
     display: block;
+}
+
+#faq .container-content ul li:hover .fa-angle-up{
+    display: inline-block;
+}
+
+#faq .container-content ul li:hover .fa-angle-down{
+    display: none;
 }
 /* fine sezione FAQ */
 
