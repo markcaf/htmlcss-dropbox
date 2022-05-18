@@ -223,6 +223,42 @@ hr{
 .team-card .col-sx .price{
     margin-bottom: 40px;
 }
+
+.list-icon::before{
+    font-weight: 900;
+    margin-right: 5px;
+    font-family: "Font Awesome 5 Free";
+    position: relative;
+    top: 2px;
+}
+
+.list-icon.share::before{
+    content: "\f1e0";
+}
+
+.list-icon.user::before{
+    content: "\f007";
+}
+
+.list-icon.users::before{
+    content: "\f0c0";
+}
+
+.list-icon.folder::before{
+    content: "\f07b";
+}
+
+.list-icon.check::before{
+    content: "\f00c";
+    color: blue;
+}
+
+.list-icon{
+    display: flex;
+    align-items: flex-start;
+}
+
+
 /* fine plans section */
 
 
@@ -399,6 +435,14 @@ hr{
 #button-cta{
     position: relative;
     top: 10px;
+    font-size: 13px;
+    background-color: white;
+    padding: 10px 30px;
+    color: black;
+}
+
+#cta-2 .flex-container .col-sx h2{
+    color: #6a112b;
 }
 /* fine cta-2 */
 
