@@ -53,6 +53,10 @@ header{
 .header-dx li:last-child{
     color: white;
 }
+
+header .header-content ul li.menu:hover{
+    border-bottom: 3px solid blue;
+}
 /* Fine header */
 
 .container-jumbo{
@@ -416,6 +420,10 @@ hr{
 
 .eight{
     background-color: #ffd830;
+}
+
+.box-logo:hover{
+    border: 15px solid rgba(255, 255, 255, 0.5);
 }
 /* Fine sezione team logo box */
 
