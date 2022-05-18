@@ -383,7 +383,6 @@ hr{
 /* Fine sezione team logo box */
 
 /* section cta-2 */
-
 #cta-2{
     background-color: #b4d0e7;
     padding: 80px 0;
@@ -401,3 +400,46 @@ hr{
     position: relative;
     top: 10px;
 }
+/* fine cta-2 */
+
+/* sezione FAQ */
+#faq{
+    padding: 80px 0;
+}
+
+#faq .container-content ul{
+    list-style: none;
+}
+
+#faq .container-content .accordion .fa-angle-down{
+    position: relative;
+    left: 25%;
+}
+
+#faq .container-content ul li{
+    padding: 30px 0;
+    border-bottom: 1px #818282 solid;
+}
+
+#faq .container-content ul li:first-child{
+    border-top: 1px #818282 solid;
+}
+
+.question{
+    font-weight: 700;
+    font-size: 13px;
+}
+
+#faq .container-content ul li p{
+    display: none;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+#faq .container-content ul li:hover .answer{
+    display: block;
+}
+/* fine sezione FAQ */
+
+
+
