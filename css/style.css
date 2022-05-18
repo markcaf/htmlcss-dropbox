@@ -382,3 +382,22 @@ hr{
 }
 /* Fine sezione team logo box */
 
+/* section cta-2 */
+
+#cta-2{
+    background-color: #b4d0e7;
+    padding: 80px 0;
+}
+
+#cta-2 .col-sx h2{
+    margin-bottom: 0;
+}
+
+#cta-2 .flex-container {
+    justify-content: space-between;
+}
+
+#button-cta{
+    position: relative;
+    top: 10px;
+}
