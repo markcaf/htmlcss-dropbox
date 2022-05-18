@@ -121,12 +121,18 @@ h1{
     font-size: 35px;
     position: relative;
     top: 16px;
+    color: black;
+}
+
+.anchor-arrow a:visited{
+    color: black;
 }
 
 /* sezione plans */
 #plans-section{
     height: auto;
     padding-top: 140px;
+    margin-top: 25px;
 }
 
 h2{
