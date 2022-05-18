@@ -20,7 +20,6 @@ header{
 .header-content{
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .header-content a {
@@ -56,6 +55,10 @@ header{
 
 header .header-content ul li.menu:hover{
     border-bottom: 3px solid blue;
+}
+
+header .header-content ul{
+    display: flex;
 }
 /* Fine header */
 
