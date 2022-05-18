@@ -441,5 +441,39 @@ hr{
 }
 /* fine sezione FAQ */
 
+/* Inizio footer */
+footer{
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    padding-bottom: 200px;
+}
 
+.column-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    padding: 5px 0;
+}
+
+footer h3{
+    margin-bottom: 20px;
+}
+
+.language{
+    position: relative;
+    top: 80px;
+    border-top: 1px white solid;
+    display: inline-block;
+    padding-top: 40px;
+    padding-right: 20px;
+    color: #999896;
+}
+/* Fine del footer */
