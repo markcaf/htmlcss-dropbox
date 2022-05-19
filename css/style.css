@@ -60,6 +60,37 @@ header .header-content ul li.menu:hover{
 header .header-content ul{
     display: flex;
 }
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    margin-top: 10px;
+    z-index: 1;
+    font-size: 13px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .submenu{
+    padding: 5px 0;
+    border-bottom: 1px #d3d3d6 solid;
+    cursor: pointer;
+  }
+
+  .dropdown-content div:last-child{
+      border-bottom: 0px;
+  }
 /* Fine header */
 
 .container-jumbo{
@@ -124,8 +155,8 @@ h1{
     color: black;
 }
 
-.anchor-arrow a:visited{
-    color: black;
+#anchor-arrow-down:visited{
+    color:black;
 }
 
 /* sezione plans */
@@ -138,6 +169,10 @@ h1{
 h2{
     font-size: 32px;
     margin-bottom: 40px;
+}
+
+a.link{
+    color: blue;
 }
 
 .radio{
